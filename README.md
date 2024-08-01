@@ -22,7 +22,7 @@ Nonlinear platoon dynamics modeling plays a crucial role in predicting and optim
 ## Framework
 
 Overall **“parameters encoder multi-scale trajectory feature learning network (PeMTFLN)”** architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
-![framework](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/framework.pdf)
+![framework](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/framework.png)
 
 
 
@@ -42,16 +42,16 @@ Overall **“parameters encoder multi-scale trajectory feature learning network 
 
 ## Quantitative results
 
- ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/box.pdf)
- ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracy-index.pdf)
- ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracywholevis.pdf)
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/box.png)
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracy-index.png)
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracywholevis.png)
 
 ## Qualitative results
 The reproduced platoon trajectory examples of PeMTFLN
- ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracywholevis.pdf)
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracywholevis.png)
 
 The SSDD and PET of platoon replicated by PeMTFLN
- ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/safety.pdf)
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/safety.png)
 
 
 
