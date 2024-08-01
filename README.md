@@ -49,7 +49,8 @@ Overall **“parameters encoder multi-scale trajectory feature learning network 
 ## Qualitative results
 The reproduced platoon trajectory examples of PeMTFLN
  ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/accuracylocalvis.png)
-
+The platoon stability evolution replicated by PeMTFLN
+ ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/stability.png)
 The SSDD and PET of platoon replicated by PeMTFLN
  ![image](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/safety.png)
 
