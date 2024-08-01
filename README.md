@@ -21,7 +21,7 @@ Nonlinear platoon dynamics modeling plays a crucial role in predicting and optim
 
 ## Framework
 
-Overall **“parameters encoder multi-scale trajectory feature learning network (PeMTFLN)”** architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
+Overall **“parameters encoder multi-scale trajectory feature learning network (PeMTFLN)”** 
 ![framework](https://github.com/SpaceTrafficSafetyTeam/PeMTFLN/blob/main/framework.png)
 
 
