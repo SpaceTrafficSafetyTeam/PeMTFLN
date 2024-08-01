@@ -1,4 +1,4 @@
-#  HLTP: A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving
+#  Analyzable Parameters Dominated Vehicle Platoon Dynamics Modeling and Analysis: A Physics-Encoded Deep Learning Approach
 
 ## Overview
 The code repository for the study titled **"Analyzable Parameters Dominated Vehicle Platoon Dynamics Modeling and Analysis: A Physics-Encoded Deep Learning Approach"** will be made available upon acceptance of the manuscript.
